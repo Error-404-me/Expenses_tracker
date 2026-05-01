@@ -28,6 +28,5 @@ Open http://localhost:8550 in your browser.
 
 - `main.py` - Flet expense tracker UI and dashboard interactions.
 - `expense_store.py` - SQLite tables, ETL/ELT save logic, and analytics queries.
-- `pipeline_engine.py` and `sqlite_pipeline.py` - legacy pipeline simulator modules from the earlier version.
 
 Runtime SQLite data is written to `data/expenses.sqlite3`.
