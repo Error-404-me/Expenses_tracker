@@ -191,14 +191,14 @@ p{
 </div>
 
 <script>
-window.addEventListener("flutter-first-frame", function () {
-    const splash = document.getElementById("splash");
-    splash.classList.add("fade-out");
-
-    setTimeout(()=>{
-        splash.remove();
-    },700);
-});
+window.onload = function() {
+   setTimeout(() => {
+      document.getElementById("splash").classList.add("fade-out");
+      setTimeout(() => {
+         document.getElementById("splash").remove();
+      }, 700);
+   }, 2200);
+};
 </script>
 
 <script src="flutter_bootstrap.js"></script>
